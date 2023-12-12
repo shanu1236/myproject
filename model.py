@@ -7,7 +7,7 @@ from statsmodels.tsa.arima.model import ARIMA
 import joblib
 from mongdbCLI import get_data
 
-mongo_url = "mongodb+srv://badshah:Badshahboy52@cluster0.icj6b.mongodb.net/?retryWrites=true&w=majority"  # Replace with your MongoDB URL
+mongo_url="your mongodb_url"
 mongo_db_name = "StockData"  # Replace with your MongoDB database name
 client = MongoClient(mongo_url)
 db = client[mongo_db_name]
